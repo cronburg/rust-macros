@@ -1,5 +1,4 @@
 
-#[macro_export]
 macro_rules! check_expect {
     ( $e1:expr, $e2:expr ) => {{
         let __e1 = $e1;
