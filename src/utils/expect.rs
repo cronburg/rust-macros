@@ -13,3 +13,9 @@ macro_rules! check_expect {
     }}
 }
 
+macro_rules! masked_macro {
+    () => {{
+        println!("Only reachable from main!");
+    }}
+}
+
